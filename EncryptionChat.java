@@ -152,14 +152,6 @@ public class EncryptionChat {
                 break;
             }
 
-            if (choice == 4) {
-                System.out.println("\n--- Chat History ---");
-                for (int i = 0; i < chatHistory.size(); i++) {
-                    System.out.println(chatHistory.get(i));
-                }
-                System.out.println("--------------------");
-                continue;
-            }
 
             System.out.print("Enter key: ");
             String key = input.nextLine();
